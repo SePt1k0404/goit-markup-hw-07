@@ -12,6 +12,12 @@
   }
 }
 
+@media screen and (max-width: 426px) {
+  .customers-list {
+    row-gap: 36px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     width: 766px;
@@ -153,7 +159,66 @@
   .team-list-icon {
     flex-wrap: nowrap;
   }
+
+  /* CUSTOMERS */
+
+  .customers-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .customers-link {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: 168px;
+  }
+
   /*_____________/MAIN_____________ */
+
+  /*_____________FOOTER_____________ */
+
+  .page-footer > .container {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    align-items: flex-start;
+  }
+
+  .footer-info {
+    align-items: flex-start;
+  }
+
+  .footer-soc {
+    align-items: flex-start;
+  }
+
+  .footer-form-container {
+    align-items: flex-start;
+    width: auto;
+    max-width: none;
+  }
+
+  .footer-form {
+    flex-direction: row;
+  }
+
+  .footer-form-input {
+    width: 264px;
+  }
+  /*_____________/FOOTER_____________ */
+
+  /*_____________PORTFOLIO_____________ */
+
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  /*_____________/PORTFOLIO_____________ */
 }
 
 @media screen and (min-width: 1200px) {
@@ -285,5 +350,50 @@
   .team-list-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
   }
+
+  /* CUSTOMERS */
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    gap: 24px;
+  }
+
+  .customers-link {
+    flex-basis: calc((100% - 5 * 24px) / 6);
+  }
+
   /*_____________/MAIN_____________ */
+
+  /*_____________FOOTER_____________ */
+
+  .page-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .page-footer > .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer-container {
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: nowrap;
+    gap: 0;
+    align-items: center;
+  }
+
+  .footer-info {
+    margin-right: 120px;
+  }
+
+  .footer-soc {
+    margin-right: 80px;
+  }
+  /*_____________/FOOTER_____________ */
 }
