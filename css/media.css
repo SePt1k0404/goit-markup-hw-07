@@ -6,6 +6,12 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .modal {
+    max-width: 100%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     width: 766px;
@@ -100,6 +106,33 @@
   }
 
   /*_____________/HEADER_____________ */
+
+  /*_____________MAIN_____________ */
+
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+  /*  FEATURES */
+
+  .features-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .features-list-item {
+    flex-basis: calc((100% - 1 * 24px) / 2);
+  }
+
+  .features-list-item-title {
+    text-align: start;
+  }
+  /*_____________/MAIN_____________ */
 }
 
 @media screen and (min-width: 1200px) {
@@ -132,4 +165,82 @@
     letter-spacing: 0.02em;
   }
   /*_____________/HEADER_____________ */
+
+  /*_____________MAIN_____________ */
+
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  /* FEATURES */
+
+  .features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .features-icon {
+    display: block;
+    width: 64px;
+    height: 64px;
+  }
+
+  .features-icon-thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 24px 100px;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+  }
+
+  .features-list {
+    gap: 24px;
+  }
+
+  .features-list-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+
+  .features-list-item-title {
+    margin-bottom: 8px;
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .features-list-item-text {
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+  }
+
+  /* WORK */
+
+  .work {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .work-title {
+    margin-bottom: 72px;
+  }
+
+  .work-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .work-list-item {
+    flex-basis: calc((100% - 2 * 24px) / 3);
+  }
+
+  /*_____________/MAIN_____________ */
 }
