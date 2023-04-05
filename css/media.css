@@ -132,6 +132,27 @@
   .features-list-item-title {
     text-align: start;
   }
+
+  /* TEAM */
+  .team > .container {
+    padding-left: 107px;
+    padding-right: 107px;
+  }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+
+  .team-list-item {
+    flex-basis: calc((100% - 1 * 24px) / 2);
+  }
+
+  .team-list-icon {
+    flex-wrap: nowrap;
+  }
   /*_____________/MAIN_____________ */
 }
 
@@ -242,5 +263,25 @@
     flex-basis: calc((100% - 2 * 24px) / 3);
   }
 
+  /* TEAM */
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team > .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .team-list {
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
+  .team-list-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
   /*_____________/MAIN_____________ */
 }
