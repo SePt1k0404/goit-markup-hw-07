@@ -4,6 +4,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .portfolio-list-item-img {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -237,8 +241,6 @@
   }
 
   .portfolio-list-item-img {
-    max-width: 356px;
-    max-height: 300px;
   }
   /*_____________/PORTFOLIO_____________ */
 }
@@ -434,7 +436,6 @@
   }
 
   .portfolio-list-item {
-    max-width: 360px;
     flex-basis: calc((100% - 2 * 24px) / 3);
   }
   /*_____________/PORTFOLIO_____________ */

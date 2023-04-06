@@ -412,6 +412,18 @@ body {
   text-align: center;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero/hero-background2@.jpg");
+  }
+}
+
 .hero-title {
   max-width: 320px;
   margin-right: auto;
@@ -1694,7 +1706,6 @@ body {
 
 .portfolio-list-item {
   transition: box-shadow var(--anim-dur-func);
-  max-width: 396px;
 }
 
 .portfolio-list-item:not(:last-child) {
@@ -1704,8 +1715,6 @@ body {
 .portfolio-list-item-img {
   width: 100%;
   height: 100%;
-  max-width: 396px;
-  max-height: 280px;
 }
 
 .portfolio-item-thumb {

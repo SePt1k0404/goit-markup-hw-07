@@ -221,6 +221,7 @@
             <li class="work-list-item">
               <img
                 class="work-list-item-img"
+                srcset="./images/services/service-01-2@.jpg 2x"
                 src="./images/services/service-01.jpg"
                 alt="First service"
                 width="360"
@@ -230,6 +231,7 @@
             <li class="work-list-item">
               <img
                 class="work-list-item-img"
+                srcset="./images/services/service-02-2@.jpg 2x"
                 src="./images/services/service-02.jpg"
                 alt="Second service"
                 width="360"
@@ -239,6 +241,7 @@
             <li class="work-list-item">
               <img
                 class="work-list-item-img"
+                srcset="./images/services/service-03-2@.jpg 2x"
                 src="./images/services/service-03.jpg"
                 alt="Thrid service"
                 width="360"
@@ -253,13 +256,36 @@
           <h2 class="page-title team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/employees/mark-guerrero.jpg"
-                alt="First employee"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/employees/desktop/mark-guerrero.jpg   1x,
+                    ./images/employees/desktop/mark-guerrero2@.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/employees/tablet/mark-guerrero.jpg   1x,
+                    ./images/employees/tablet/mark-guerrero2@.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/employees/mobile/mark-guerrero.jpg   1x,
+                    ./images/employees/mobile/mark-guerrero2@.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/employees/desktop/mark-guerrero.jpg"
+                  alt="First employee"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <div class="team-list-item-info">
                 <h3 class="team-list-item-title">Mark Guerrero</h3>
                 <p class="team-list-item-text">Product Designer</p>
@@ -304,13 +330,37 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/employees/tom-ford.jpg"
-                alt="Second employee"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/employees/desktop/tom-ford.jpg   1x,
+                    ./images/employees/desktop/tom-ford2@.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/employees/tablet/tom-ford.jpg   1x,
+                    ./images/employees/tablet/tom-ford2@.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/employees/mobile/tom-ford.jpg   1x,
+                    ./images/employees/mobile/tom-ford2@.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+
+                <img
+                  class="team-list-item-img"
+                  src="./images/employees/desktop/tom-ford.jpg"
+                  alt="Second employee"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <div class="team-list-item-info">
                 <h3 class="team-list-item-title">Tom Ford</h3>
                 <p class="team-list-item-text">Frontend Developer</p>
@@ -355,13 +405,37 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/employees/camila-garcia.jpg"
-                alt="Third employee"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/employees/desktop/camila-garcia.jpg   1x,
+                    ./images/employees/desktop/camila-garcia2@.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/employees/tablet/camila-garcia.jpg   1x,
+                    ./images/employees/tablet/camila-garcia2@.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/employees/mobile/camila-garcia.jpg   1x,
+                    ./images/employees/mobile/camila-garcia2@.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+
+                <img
+                  class="team-list-item-img"
+                  src="./images/employees/desktop/camila-garcia.jpg"
+                  alt="Third employee"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <div class="team-list-item-info">
                 <h3 class="team-list-item-title">Camila Garcia</h3>
                 <p class="team-list-item-text">Marketing</p>
@@ -406,13 +480,38 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/employees/daniel-wilson.jpg"
-                alt="Fourth employee"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/employees/desktop/daniel-wilson.jpg   1x,
+                    ./images/employees/desktop/daniel-wilson2@.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/employees/tablet/daniel-wilson.jpg   1x,
+                    ./images/employees/tablet/daniel-wilson2@.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/employees/mobile/daniel-wilson.jpg   1x,
+                    ./images/employees/mobile/daniel-wilson2@.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+
+                <img
+                  class="team-list-item-img"
+                  src="./images/employees/desktop/daniel-wilson.jpg"
+                  alt="Fourth employee"
+                  width="264"
+                  height="260"
+                />
+              </picture>
+
               <div class="team-list-item-info">
                 <h3 class="team-list-item-title">Daniel Wilson</h3>
                 <p class="team-list-item-text">UI Designer</p>
