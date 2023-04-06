@@ -1715,7 +1715,6 @@ body {
 .portfolio-item-thumb {
   position: relative;
   overflow: hidden;
-  height: 280px;
 }
 
 .portfolio-item-overlay {
