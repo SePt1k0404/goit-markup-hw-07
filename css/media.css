@@ -87,6 +87,11 @@
     transition: color var(--anim-dur-func);
   }
 
+  .menu-link:hover,
+  .menu-link:focus {
+    color: var(--accent-color);
+  }
+
   .contacts {
     display: block;
   }
@@ -103,6 +108,11 @@
     line-height: 1.17;
     letter-spacing: 0.04em;
     transition: color var(--anim-dur-func);
+  }
+
+  .contacts-list-item-link:hover,
+  .contacts-list-item-link:focus {
+    color: var(--accent-color);
   }
 
   /*_____________/HEADER_____________ */
